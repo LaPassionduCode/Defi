@@ -16,11 +16,11 @@ public class crypter {
 
         //boucle permettant de passer par chaque valeur de l'array à traiter
         for (int i = 0; i < textArr.length; i++){
-            int textCharInt = textArr[i]; //on convertie le charcactère en son nombre
+            int textCharInt = textArr[i]; //on convertie le carcactère en son nombre
 
             //Deux conditions qui permmette que si la valeur dépasse la correspondance d'une lettre de l'alphabet
             //il recommence au début de l'alphabet et fini de compter.
-            if (textCharInt >= 65 && textCharInt <= 90 ){ //condition pour les majuscule
+            if (textCharInt >= 65 && textCharInt <= 90 ){ //condition pour les majuscules
                 textCharInt = textCharInt + nbreCrypto;
                 if (textCharInt > 90){
                     textCharInt = 65 + (textCharInt - 91);
@@ -28,7 +28,7 @@ public class crypter {
                 textArr[i] = (char) textCharInt; //reconvertie le nombre en sa correspondance de la lettre de l'alphabet
             }
 
-            if (textCharInt >= 97 && textCharInt <= 122 ){ //condition pour les minuscule
+            if (textCharInt >= 97 && textCharInt <= 122 ){ //condition pour les minuscules
                 textCharInt = textCharInt + nbreCrypto;
                 if (textCharInt > 122){
                     textCharInt = 97 + (textCharInt - 123);
