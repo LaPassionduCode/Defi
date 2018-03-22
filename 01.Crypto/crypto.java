@@ -19,7 +19,7 @@ public class crypto {
     public static void main (String[] args){
         int boucle = 1;
         //initiation de la variable pour la boucle principal, puis boucle principal pour garder le programme
-        //lancer tant que le 0 n'est pas entrer
+        //lancé tant que le 0 n'est pas entrer
         while (boucle != 0){
             Scanner boucleScan = new Scanner(System.in);
             System.out.println("\n***************************************");
@@ -44,7 +44,7 @@ public class crypto {
                 //On écoute la valeur pour la clef que l'utilisateur veux et on fait le modulo de celui-ci pour être
                 //sûr d'avoir un chiffre entre 0 et 25
                 int nbreCrypto = entreCrypt.nextInt() % 26;
-                //appelle la classe et la fonction pour crypter en lui donnant les donner à convertir
+                //appelle la classe et la fonction pour crypter en lui donnant les données à convertir
                 crypter.cryptage(text, nbreCrypto);
 
             }else if (boucle == 2){
@@ -53,7 +53,7 @@ public class crypto {
                 String text = entreDecript.nextLine();
                 System.out.print("Quel est le chiffrement de César ? : ");
                 int nbreCrypto = entreDecript.nextInt() % 26;
-                //appelle la classe et la fonction pour décrypter en lui donnant les donner à convertir
+                //appelle la classe et la fonction pour décrypter en lui donnant les données à convertir
                 decrypter.decryptage(text, nbreCrypto);
             }
         }
