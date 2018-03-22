@@ -23,8 +23,8 @@ public class crypto {
         while (boucle != 0){
             Scanner boucleScan = new Scanner(System.in);
             System.out.println("\n***************************************");
-            System.out.print("Pour le cryptage taper 1. \nPour le décryptage taper 2. " +
-                    "\nPour quitter taper 0. \nQue voulez vous faire : ");
+            System.out.print("Pour le cryptage tapez 1. \nPour le décryptage tapez 2. " +
+                    "\nPour quitter tapez 0. \nQue voulez vous faire : ");
             //permet d'intercepter une erreur plus particulèrement si l'utlisateur rentre des lettres. Affiche un petit
             //message et attribue à la variable boucle une valeur qui permet de rester dans la boucle while.
             try{

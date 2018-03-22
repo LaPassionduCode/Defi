@@ -12,7 +12,7 @@ public class crypter {
         char[] textArr = text.toCharArray(); //Permet de passer de String à un array de char
 
         System.out.println("\n***************************************");
-        System.out.print("Le cryptage à fonctioné, voici le résultat. \n");
+        System.out.print("Le cryptage a fonctioné, voici le résultat. \n");
 
         //boucle permettant de passer par chaque valeur de l'array à traiter
         for (int i = 0; i < textArr.length; i++){
@@ -40,3 +40,20 @@ public class crypter {
         System.out.println("\n***************************************\n");
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
