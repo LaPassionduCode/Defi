@@ -3,7 +3,7 @@
  Role ........ : classe permettant le décryptage du texte
  souhaité en fonction du numéro de décryptage
  Auteur ...... : Patrick Schwegler
- Version ..... : V1.1 du 12.03.2018
+ Version ..... : V1.1 du 19.03.2018
  Licence ..... : GPL
  ********************************************************/
 
