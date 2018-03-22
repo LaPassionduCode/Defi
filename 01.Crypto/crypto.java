@@ -4,7 +4,7 @@
  décrypter du texte en fonction d'une clef donnée (chiffre)
  par ex : la lettre "a" avec comme clef "1" donnerais "b"
  Auteur ...... : Patrick Schwegler
- Version ..... : V1.1 du 12.03.2018
+ Version ..... : V1.1 du 19.03.2018
  Licence ..... : GPL
 
  Modif depuis dernière version :    - Rajout du error handling pour la première rentrer de l'utilisateur pour être sûr
