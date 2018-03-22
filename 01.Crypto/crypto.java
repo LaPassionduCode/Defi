@@ -52,7 +52,7 @@ public class crypto {
                 System.out.print("Ecrivez ce que vous voulez decrypter : ");
                 String text = entreDecript.nextLine();
                 System.out.print("Quel est le chiffrement de César ? : ");
-                int nbreCrypto = entreDecript.nextInt();
+                int nbreCrypto = entreDecript.nextInt() % 26;
                 //appelle la classe et la fonction pour décrypter en lui donnant les donner à convertir
                 decrypter.decryptage(text, nbreCrypto);
             }
